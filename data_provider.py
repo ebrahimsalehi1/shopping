@@ -13,6 +13,6 @@ order3 = Order(date=func.date('2022-09-15'), customer_id=2)
 
 db.session.add_all([customer1, customer2, customer3])
 db.session.add_all([order1, order2, order3])
-
+# Just for testing stuffs
 
 db.session.commit()
